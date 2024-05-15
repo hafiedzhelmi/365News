@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+nav li {
+  display: inline;
+  position: relative;
+}
+
+nav a {
+  display: inline-block;
+  padding: 0;
+  text-decoration: none;
+  color: #333;
+}
+
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  left: 0;
+  top: 100%;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  left: 0;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.article-image-container {
+  max-width: 300px;
+  max-height: 300px;
+  overflow: hidden;
+}
+
+.article-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+main {
+  margin-top: 80px;
+}
+
+form {
+  margin: 20px 20px;
+}
+
+label, input, textarea, select {
+  display: block;
+  margin-bottom: 10px;
+}
+
+textarea {
+  width: 650px;
+  height: 450px;
+}
+
+button[type="submit"]{
+  padding: 10px 20px;
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+}

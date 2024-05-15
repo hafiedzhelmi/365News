@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        
+        main {
+            flex: 1;
+        }
+        
+        .footer {
+            background-color: #444443;
+            padding: 40px 0;
+        }
+        
+        .footer .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        
+        .footer .footer-column {
+            flex-basis: 30%;
+            margin-bottom: 20px;
+        }
+        
+        .footer h2 {
+            color: white;
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+        
+        .footer p {
+            color: rgb(200, 192, 192);
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+        
+        .footer .social-media {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .footer .social-media li {
+            margin-right: 10px;
+        }
+        
+        .footer .social-media a {
+            color: #666;
+            font-size: 28px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .footer .social-media a i {
+            margin-right: 5px;
+            transition: color 0.3s ease; 
+        }
+        
+        .footer .social-media a:hover i {
+            color: white;
+        }
+        
+        .footer .footer-bottom {
+            background-color: #ffff;
+            padding: 10px 0;
+            text-align: center;
+            color: black;
+            font-size: 14px;
+        }
+        
+        .footer .footer-bottom a {
+            color: black;
+            text-decoration: none;
+        }
+        
+        .footer .footer-bottom a:hover {
+            color: rgb(200, 192, 192);
+        }
+        
+        /* Responsive styles */
+        @media (max-width: 768px) {
+            .footer .footer-column {
+                flex-basis: 100%;
+            }
+        }
+    </style>
+    
+</head>
+<body>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-column">
+                <h2>About Us</h2>
+                <p>Welcome to our trusted source for up-to-date news. We provide comprehensive coverage of local and global events with a commitment to accuracy and unbiased reporting. Stay informed with us.</p>
+            </div>
+            <div class="footer-column">
+                <h2>Contact Us</h2>
+                <p>Blok 2, Menara Silikon, Jalan Orang Hebat, Kuala Lumpur</p>
+                <p>Email: ThreeSixFiveNews@gmail.com</p>
+                <p>Phone: 03-8000 8000</p>
+            </div>
+            <div class="footer-column">
+                <h2>Follow Us</h2>
+                <ul class="social-media">
+                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p style="color: black;">&copy; 2023 365 News. All rights reserved.</p>
+            <a href="">Disclaimer</a>
+        </div>
+    </footer>
+</body>
+</html>
